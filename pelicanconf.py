@@ -64,9 +64,9 @@ DEFAULT_PAGINATION = 5
 #MARKUP = ('md', 'ipynb')
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATHS = ['./plugins']
 STATIC_PATHS = ['images']
-#PLUGINS = ['ipynb.markup']
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
 #PLUGINS = ['ipynb.liquid']
 #IPYNB_IGNORE_CSS=True
 
