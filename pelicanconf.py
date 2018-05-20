@@ -41,7 +41,8 @@ CUSTOM_SIDEBAR_MIDDLES = ("sb_links.html", "sb_taglist.html", )
 
 # Blogroll
 LINKS = (('LNCC', 'http://lncc.br/'),
-         ('Python.org', 'http://python.org/'))
+         ('Python.org', 'http://python.org/'),
+         (u'Currículo Lattes', 'http://lattes.cnpq.br/3999178670179183'))
 #         ('Jinja2', 'http://jinja.pocoo.org/'),
 
 # Social widget
@@ -75,7 +76,10 @@ IPYNB_USE_META_SUMMARY=True
 STYLESHEET_FILES = ("pygment.css", "volps.css",)
 
 # Put taglist at end of articles, and use the default sharing button implementation.
-CUSTOM_ARTICLE_FOOTERS = ("taglist.html", "sharing.html", )
+CUSTOM_ARTICLE_PRECONTENT = "taglist.html"
+CUSTOM_ARTICLE_FOOTERS = ("sharing.html", )
+#CUSTOM_ARTICLE_FOOTERS = ("sharing.html", "comments.html", )
+#CUSTOM_ARTICLE_FOOTERS = ("index_summary.html", )
 CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 
 # Uncomment following line if you want document-relative URLs when developing
