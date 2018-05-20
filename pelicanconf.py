@@ -68,7 +68,8 @@ STATIC_PATHS = ['images']
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 #PLUGINS = ['ipynb.liquid']
-#IPYNB_IGNORE_CSS=True
+IPYNB_IGNORE_CSS=False
+IPYNB_USE_META_SUMMARY=True
 
 # Extra stylesheets, for bootstrap overrides or additional styling.
 STYLESHEET_FILES = ("pygment.css", "volps.css",)
