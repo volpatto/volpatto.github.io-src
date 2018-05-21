@@ -18,8 +18,8 @@ USE_FOLDER_AS_CATEGORY = True
 #THEME = 'html5-dopetrope'
 THEME = '/home/volps/pelican-themes/voidy-bootstrap'
 MAIL = 'volpatto@lncc.br'
-FACEBOOK_USER = 'diego.volpatto'
-GOOGLEPLUS_USER = '111987548001471824619'
+#FACEBOOK_USER = 'diego.volpatto'
+#GOOGLEPLUS_USER = '111987548001471824619'
 
 ABOUT_IMAGE = './content/images/olocobixo.jpg'
 
@@ -68,7 +68,6 @@ MARKUP = ('md', 'ipynb')
 STATIC_PATHS = ['images']
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
-#PLUGINS = ['ipynb.liquid']
 IPYNB_IGNORE_CSS=False
 IPYNB_USE_META_SUMMARY=True
 
@@ -77,7 +76,7 @@ STYLESHEET_FILES = ("pygment.css", "volps.css",)
 
 # Put taglist at end of articles, and use the default sharing button implementation.
 CUSTOM_ARTICLE_PRECONTENT = "taglist.html"
-CUSTOM_ARTICLE_FOOTERS = ("sharing.html", )
+CUSTOM_ARTICLE_FOOTERS = ("home_top.html","sharing.html", )
 #CUSTOM_ARTICLE_FOOTERS = ("sharing.html", "comments.html", )
 #CUSTOM_ARTICLE_FOOTERS = ("index_summary.html", )
 CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
